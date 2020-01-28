@@ -1,0 +1,20 @@
+css-----
+
+.key {
+	opacity: 1;
+	/* animation-name: reveal;
+	animation-iteration-count: infinite;
+	animation-iteration-count: 3;
+	animation-fill-mode: forwards;
+	animation-duration: 3s;*/
+	color: #000; border: 1px solid #000; padding: 10px;
+	display: inline-block; 
+
+	animation: 2s ease-in 1s infinite alternate both reveal;
+	/* animation: 3s linear 1s infinite alternate reveal; */
+}
+@keyframes reveal {
+	 from { /* transform: scaleX(0); */ opacity: 0; }
+	to   {/*  transform: scaleX(1); */  opacity: 1;}
+
+}
