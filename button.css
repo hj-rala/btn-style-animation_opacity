@@ -12,9 +12,15 @@ css-----
 
 	animation: 2s ease-in 1s infinite alternate both reveal;
 	/* animation: 3s linear 1s infinite alternate reveal; */
+	
+	animation: 0.5s linear 0.1s infinite alternate both btnIn;
 }
 @keyframes reveal {
 	 from { /* transform: scaleX(0); */ opacity: 0; }
 	to   {/*  transform: scaleX(1); */  opacity: 1;}
+}
 
+@keyframes btnIn {
+	from { transform: translateY(0);}
+	to { transform: translateY(-5px);}
 }
